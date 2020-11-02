@@ -13,7 +13,6 @@ f. make && make modules && make install && make modules_install  </br>
 g. reboot  </br>
 h. uname -r  </br>
 </br>
-
 3. install KVM
 a. sudo bash   </br>
 b. apt install cpu-checker  </br>
