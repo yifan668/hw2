@@ -1,22 +1,21 @@
 # CMPE283 : Virtualization </br>
 Assignment 2: Modifying instruction behavior in KVM </br>
 1. Download the source code: </br>
-&nbsp  git clone https://github.com/torvalds/linux.git   </br>
+git clone https://github.com/torvalds/linux.git   </br>
 </br> 
-
 2.Building The Kernel   </br>
-&nbsp a. sudo bash   </br>
-&nbsp b. apt-get install build-essential kernel-package fakeroot libncurses5-dev libssl-dev ccache bison flex libelf-dev  </br>
-&nbsp c. uname -a </br>
-&nbsp d. cp /boot/config-4.15.0-112-generic    ./.config  </br>
-&nbsp e. make oldconfig  </br>
-&nbsp f. make && make modules && make install && make modules_install  </br>
-&nbsp g.reboot  </br>
-&nbsp uname -r  </br>
+a. sudo bash   </br>
+b. apt-get install build-essential kernel-package fakeroot libncurses5-dev libssl-dev ccache bison flex libelf-dev  </br>
+c. uname -a </br>
+d. cp /boot/config-4.15.0-112-generic    ./.config  </br>
+e. make oldconfig  </br>
+f. make && make modules && make install && make modules_install  </br>
+g. reboot  </br>
+h. uname -r  </br>
 </br>
 
 3. install KVM
-&nbsp a. sudo bash   </br>
-&nbsp b. apt install cpu-checker  </br>
-&nbsp b. kvm-ok  </br>
-&nbsp d. apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils virt-manager   </br>
+a. sudo bash   </br>
+b. apt install cpu-checker  </br>
+c. kvm-ok  </br>
+d. apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils virt-manager   </br>
