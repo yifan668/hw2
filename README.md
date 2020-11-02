@@ -2,7 +2,8 @@
 Assignment 2: Modifying instruction behavior in KVM </br>
 1. Download the source code: </br>
 &nbsp  git clone https://github.com/torvalds/linux.git   </br>
-</br>
+</br> 
+
 2.Building The Kernel   </br>
 &nbsp a. sudo bash   </br>
 &nbsp b. apt-get install build-essential kernel-package fakeroot libncurses5-dev libssl-dev ccache bison flex libelf-dev  </br>
@@ -13,3 +14,9 @@ Assignment 2: Modifying instruction behavior in KVM </br>
 &nbsp g.reboot  </br>
 &nbsp uname -r  </br>
 </br>
+
+3. install KVM
+&nbsp a. sudo bash   </br>
+&nbsp b. apt install cpu-checker  </br>
+&nbsp b. kvm-ok  </br>
+&nbsp d. apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils virt-manager   </br>
