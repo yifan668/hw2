@@ -14,8 +14,12 @@ g. reboot  </br>
 h. uname -r  </br>
 </br>
 
-3. install KVM
+3. install VM manager
 a. sudo bash   </br>
 b. apt install cpu-checker  </br>
 c. kvm-ok  </br>
-d. apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils virt-manager   </br>
+d. apt-get install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils    </br>
+e. virsh version </br>
+</br>
+
+4. 
