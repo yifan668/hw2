@@ -15,7 +15,7 @@ g. reboot  </br>
 h. uname -r  </br>
 </br>
 
-3. install VM manager
+3. install VM manager  </br>
 a. sudo bash   </br>
 b. apt install cpu-checker  </br>
 c. kvm-ok  </br>
