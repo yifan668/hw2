@@ -1116,7 +1116,7 @@ int kvm_emulate_cpuid(struct kvm_vcpu *vcpu)
 	eax = kvm_rax_read(vcpu);
 	ecx = kvm_rcx_read(vcpu);
 
-	/*CMPE283 changes*/
+	//code changes
 	if(eax == 0x4fffffff){
 		kvm_cpuid(vcpu, &eax, &ebx, &ecx, &edx, true);
 		//return total number of exits
