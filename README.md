@@ -8,14 +8,15 @@ respons：</br>
 3. Wrote the test program </br>
 4. Modify the CPUID emulation code in KVM to report back additional information </br>
 5. Moddify the kernel code with the assignment functionality </br>
-a. Detemine where to place the measurement code </br>
-b. Create new CPID leaf 0x4fffffff </br>
+   a. Detemine where to place the measurement code </br>
+   b. Create new CPID leaf 0x4fffffff </br>
 6.Testing assignment </br>
 7. Verify proper output </br>
 
 1. Download the source code: </br>
 git clone https://github.com/torvalds/linux.git   </br>
 </br>
+
 2. Building The Kernel   </br>
 a. sudo bash   </br>
 b. apt-get install build-essential kernel-package fakeroot libncurses5-dev libssl-dev ccache bison flex libelf-dev  </br>
