@@ -3,7 +3,7 @@ Assignment 2: Modifying instruction behavior in KVM </br>
 Group:</br>
 Yifan Liu (011410984)</br>
 respons：</br>
-a. got the Kernel to last version </br>
+a. Builing the Kernel to last version </br>
 b. got Nested VM  </br>
 c. Wrote the test program </br>
 d. Modify the CPUID emulation code in KVM to report back additional information </br>
