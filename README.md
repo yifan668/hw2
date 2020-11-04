@@ -43,6 +43,8 @@ c. curl -fsSL https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key 
 d. sudo add-apt-repository "deb https://download.sublimetext.com/ apt/stable/"  </br>
 d. sudo apt install sublime-text  </br>
  </br>
+5.Edit the file cpuil.c and vmx.c  </br>
+ </br>
 
 Question 3:  </br>
 Does the number of exits increase at a stable rate? </br>
