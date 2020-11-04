@@ -1,6 +1,8 @@
 # CMPE283 : Virtualization </br>
 Assignment 2: Modifying instruction behavior in KVM </br>
-Yifan Liu </br>
+Group:</br>
+Yifan Liu (011410984)</br>
+
 1. Download the source code: </br>
 git clone https://github.com/torvalds/linux.git   </br>
 </br>
@@ -24,4 +26,9 @@ e. </br>
 f. virsh version </br>
 </br>
 
-4. 
+4. install subline text  </br>
+a. sudo apt install gcc
+b. sudo apt install apt-transport-https ca-certificates curl software-properties-common
+c. sudo curl -fsSL https://download.sublimete.com/sublimehq-pub.gpg |sudo apt key add
+d. sudo add-apt-repository "deb https://download.sublimetext.com/ apt/stable/"
+d. sudo apt install sublime-text  </br>
