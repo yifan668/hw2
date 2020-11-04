@@ -2,21 +2,23 @@
 Assignment 2: Modifying instruction behavior in KVM </br>
 Group:</br>
 Yifan Liu (011410984)</br>
-respons：</br>
+Binwang Luo(014632566) </br>
+
+Respons：</br>
+Yifan Liu:</br>
 a. Builing the Kernel to last version </br>
-b. got Nested VM  </br>
-c. Wrote the test program </br>
-d. Modify the CPUID emulation code in KVM to report back additional information </br>
-e. Detemine where to place the measurement code </br>
-f. Create new CPID leaf 0x4fffffff </br>
-g. Testing assignment </br>
-h. Verify proper output </br>
+b. got Nested VM  </br> 
+c. Modify the CPUID emulation code in KVM to report back additional information </br>
+d. Testing assignment </br>
+e. Verify proper output </br>
 
 Binwang Luo(014632566)</br>
-respons：</br>
-a.
-b.
-c.
+a. Wrote the test program </br>
+b. Detemine where to place the measurement code </br>
+c. Create new CPID leaf 0x4fffffff </br>
+d. Updated documents to github</br>
+
+Steps as below:  
 
 1. Download the source code: </br>
 git clone https://github.com/torvalds/linux.git   </br>
@@ -53,5 +55,10 @@ d. sudo apt install sublime-text  </br>
  </br>
 
 Question 3:  </br>
-Does the number of exits increase at a stable rate? </br>
-How many exits does a full VM boot entail? </br>
+a. Does the number of exits increase at a stable rate?Or are there
+more exits performed during certain VM operations? </br>
+After the CPUID function executing, the number of exits increasing.  
+b. How many exits does a full VM boot entail? </br>
+There are approximately 24 millions exits. 
+
+
