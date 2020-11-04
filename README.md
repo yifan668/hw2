@@ -2,6 +2,16 @@
 Assignment 2: Modifying instruction behavior in KVM </br>
 Group:</br>
 Yifan Liu (011410984)</br>
+respons：</br>
+1. got the Kernel to last version
+2. got Nested VM 
+3. Wrote the test program
+4. Modify the CPUID emulation code in KVM to report back additional information
+5. Moddify the kernel code with the assignment functionality
+a. Detemine where to place the measurement code
+b. Create new CPID leaf 0x4fffffff
+6.Testing assignment
+7. Verify proper output
 
 1. Download the source code: </br>
 git clone https://github.com/torvalds/linux.git   </br>
