@@ -53,7 +53,6 @@ d. sudo apt install sublime-text  </br>
  </br>
 5.Edit the file cpuil.c and vmx.c  </br>
  </br>
-
 Question 3:  </br>
 a. Does the number of exits increase at a stable rate?Or are there
 more exits performed during certain VM operations? </br>
