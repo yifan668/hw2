@@ -12,6 +12,12 @@ f. Create new CPID leaf 0x4fffffff </br>
 g. Testing assignment </br>
 h. Verify proper output </br>
 
+Binwang Luo(014632566)</br>
+respons：</br>
+a.
+b.
+c.
+
 1. Download the source code: </br>
 git clone https://github.com/torvalds/linux.git   </br>
 </br>
