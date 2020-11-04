@@ -43,21 +43,27 @@ d. apt-get install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils  
 e. apt-get install virt-manager</br>
 f. virsh version </br>
 </br>
-
-4. install subline text  </br>
+4. In kernel, built the new modified modules.</br>
+a. rmmod kvm-intel</br>  
+b. rmmod kvm</br>
+c. insmod arch/x86/kvm/kvm.ko</br>  
+d. insmod arch/x86/kvm/kvm-intel.ko </br>
+</br>
+5. install subline text  </br>
 a. sudo apt install gcc  </br>
 b. sudo apt install apt-transport-https ca-certificates curl software-properties-common  </br>
 c. curl -fsSL https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -  </br>
 d. sudo add-apt-repository "deb https://download.sublimetext.com/ apt/stable/"  </br>
 d. sudo apt install sublime-text  </br>
  </br>
-5.Edit the file cpuil.c and vmx.c  </br>
- </br>
+6.Edit the file cpuil.c and vmx.c  </br>
+a. Complete the cpuid.c file with if(eax == 0*4fffffff) </br>
+b. In vmx.c, built a counter to count the number of exits and the time the exits spent. </br> 
+c. Runninng the file in VM
+</br>
 Question 3:  </br>
 a. Does the number of exits increase at a stable rate?Or are there
 more exits performed during certain VM operations? </br>
 After the CPUID function executing, the number of exits increasing.  
 b. How many exits does a full VM boot entail? </br>
 There are approximately 24 millions exits. 
-
-
