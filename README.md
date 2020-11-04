@@ -27,8 +27,9 @@ f. virsh version </br>
 </br>
 
 4. install subline text  </br>
-a. sudo apt install gcc
-b. sudo apt install apt-transport-https ca-certificates curl software-properties-common
-c. sudo curl -fsSL https://download.sublimete.com/sublimehq-pub.gpg |sudo apt key add
-d. sudo add-apt-repository "deb https://download.sublimetext.com/ apt/stable/"
+a. sudo apt install gcc  </br>
+b. sudo apt install apt-transport-https ca-certificates curl software-properties-common  </br>
+c. curl -fsSL https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -  </br>
+d. sudo add-apt-repository "deb https://download.sublimetext.com/ apt/stable/"  </br>
 d. sudo apt install sublime-text  </br>
+ </br>
