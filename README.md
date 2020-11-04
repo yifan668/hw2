@@ -32,7 +32,7 @@ a. sudo bash   </br>
 b. apt install cpu-checker  </br>
 c. kvm-ok  </br>
 d. apt-get install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils    </br>
-e. </br>
+e. apt-get install virt-manager</br>
 f. virsh version </br>
 </br>
 
